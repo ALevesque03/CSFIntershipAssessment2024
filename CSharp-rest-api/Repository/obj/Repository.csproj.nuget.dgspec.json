@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Repository\\Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Types\\Types.csproj": {
+                "projectPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Types\\Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\DAL\\DAL.csproj"
+              },
+              "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Model\\Model.csproj": {
+                "projectPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Model\\Model.csproj"
+              },
+              "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Types\\Types.csproj": {
+                "projectPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Types\\Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Types\\Types.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Types\\Types.csproj",
+        "projectName": "Types",
+        "projectPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Types\\Types.csproj",
+        "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\Anthony\\JobPractice\\CSF\\CSharp-rest-api\\Types\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

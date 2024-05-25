@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tY7cAHFh9cvRueT2aiWCnlPxF91wZPoBdve7i3cPWmg=",
+  "Source": "CSharp-rest-api",
+  "BasePath": "_content/CSharp-rest-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

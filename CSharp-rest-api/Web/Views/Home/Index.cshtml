@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Model.Animal>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>API Animals</h1>
+
+<form class="col-4" asp-action="Index" method="post">
+    <div class="form-group">
+        <label>Enter an animal Species</label>
+        <input name="name" id="name" type="text" class="form-control" />
+    </div>
+    <br />
+    <input class="btn btn-secondary" name="submit" value="Search" type="submit" />
+</form>
+@if (ViewBag.SearchQuery != null)
+{
+    <h5>@ViewBag.SearchQuery</h5>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Taxonomy.ScientificName)</th>
+            <th>@Html.DisplayNameFor(model => model.Taxonomy.Class)</th>
+            <th>@Html.DisplayNameFor(model => model.Taxonomy.Order)</th>
+            <th>@Html.DisplayNameFor(model => model.Taxonomy.Family)</th>
+            <th>@Html.DisplayNameFor(model => model.Locations)</th>
+            <th>@Html.DisplayNameFor(model => model.Characteristics)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Taxonomy.ScientificName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Taxonomy.Class)</td>
+                <td>@Html.DisplayFor(modelItem => item.Taxonomy.Order)</td>
+                <td>@Html.DisplayFor(modelItem => item.Taxonomy.Family)</td>
+                <td>@Html.DisplayFor(modelItem => item.Locations)</td>
+                <td>@Html.DisplayFor(modelItem => item.Characteristics)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    @Html.ActionLink("View other people's favorite animals", "Index", "Form")
+</p>
