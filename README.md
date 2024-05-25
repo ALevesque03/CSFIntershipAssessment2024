@@ -32,3 +32,5 @@ With the experience I've had with deploying my personal website: https://anthony
 ![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/ab489743-47b9-4af1-b925-f2f9dee32d6a)
 ![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/31187dd0-5674-4f48-98fb-f67cf4131f5f)
 ![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/60bf3e56-9623-4909-b7e8-2bc386347058)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/575f10b5-d7de-4136-80d4-295b90070371)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/809210e6-4958-43d1-9636-0e35f47a4971)
