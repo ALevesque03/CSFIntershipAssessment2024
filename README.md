@@ -22,3 +22,13 @@ It could also have better flow and descriptions for each of the pages, one optio
 
 # Deployment
 With the experience I've had with deploying my personal website: https://anthonylevesque.com/ I believe that a Linux VPS(Virtual Private Server) may be a good option, it can most likely have everything setup on that one server. I've had trouble previously setting up the database for it, but I assume that using C# and MSSQL would work better than what I previously used for my Ruby app and its database setup. Linux servers are great, it can host any type of projects, whether its windows or IOS dependant, having a private VPS would also help with the uptime. Although, for the database, an AWS database setup might be a good option, from what I've read and heard all around. Let me know if you think there's a better option.
+
+# Images for references
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/70cd0e48-02dd-48e0-a09b-aa8795794055)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/dfac5192-44fd-4e97-a9bf-c014b49d2222)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/004696b4-edbf-4470-9022-ac4907db71c9)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/a1d2b5e8-e642-4693-8b63-85f9a4497272)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/597ca03c-e386-4fee-994b-e7ee10c67c25)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/ab489743-47b9-4af1-b925-f2f9dee32d6a)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/31187dd0-5674-4f48-98fb-f67cf4131f5f)
+![image](https://github.com/ALevesque03/CSFIntershipAssessment2024/assets/93732487/60bf3e56-9623-4909-b7e8-2bc386347058)
